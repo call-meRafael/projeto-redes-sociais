@@ -8,7 +8,7 @@
 
 html, body{
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     background-color: black;
 }
 
@@ -35,3 +35,45 @@ main {
     background-color: blue;
     background: url(../imagens/frame-iphone.png) no-repeat center center;
 }
+
+#tela-home {
+    position: relative;
+    top: 79px;
+    left: 24px;
+    width: 269px;
+    height: 471px;
+    border-radius: 3px;
+    border: 2px groove darkred;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.685);
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+    box-sizing: border-box;
+
+}
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s, border 0.1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.781);
+    cursor: pointer;
+}
+
+/* @media (max-width: 320px) {
+    #redes-sociais {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 30px;
+        
+    }
+} */ 
