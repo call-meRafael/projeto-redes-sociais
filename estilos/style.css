@@ -43,7 +43,7 @@ main {
     width: 269px;
     height: 471px;
     border-radius: 3px;
-    border: 2px groove darkred;
+    border: 2px groove rgba(128, 128, 128, 0.76);
     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.685);
 }
 
