@@ -48,11 +48,13 @@ main {
 }
 
 #redes-sociais img {
+    position: relative;
     width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
     box-sizing: border-box;
+    z-index: 100;
 
 }
 
