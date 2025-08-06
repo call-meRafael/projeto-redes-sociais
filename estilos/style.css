@@ -72,7 +72,7 @@ main {
 
 @media (max-width: 600px) {
     #telefone {
-        transform: scale(0.8) translate(-65%, -60%);
+        transform: scale(0.9) translate(-57%, -60%);
     }
 }
 /* @media (max-width: 320px) {
